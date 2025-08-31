@@ -1,0 +1,16 @@
+@"
+# Virtual env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Database
+wallet.db
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+.env
+"@ | Out-File -FilePath .gitignore -Encoding utf8
